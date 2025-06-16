@@ -51,7 +51,7 @@ This is a basic console-based Inventory Management System built using C++. It al
 ## 📂 File Used  
 
 - **inventory.txt**    
-  Stores all product information in plain text format, one product per line:
+  Stores all product information in plain text format, one product per line:  
   101 Pen 50 0.1 10.5  
   102 Notebook 20 0.05 45.0
 
@@ -69,7 +69,7 @@ Enter Price: 5.0
 Product added.
 
 ## 📋 Sample Inventory Report  
--- Inventory Report --
+-- Inventory Report --  
 ID: 101, Name: Pen, Quantity: 50, Discount: 0.1, Price: 10.5  
 ID: 102, Name: Notebook, Quantity: 20, Discount: 0.05, Price: 45.0  
 

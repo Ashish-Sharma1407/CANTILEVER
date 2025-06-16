@@ -18,14 +18,16 @@ This is a simple console-based number guessing game built using C++. It generate
 - Upon correct guess, result is stored in a file for future record
 
 ## 🧪 Sample Output
-Welcome to the Number Guessing Game!
-I have selected a number between 0 to 99. Try to guess it!
-Enter your number:
-50
-Too low! Try again
-Enter your number:
-75
-Too high! Try again
-Enter your number:
-62
-🎉 Congratulations! You guessed the number in 3 attempts.
+Welcome to the Number Guessing Game!  
+
+I have selected a number between 0 to 99. Try to guess it!  
+Enter your number:  
+50  
+Too low! Try again  
+Enter your number:  
+75  
+Too high! Try again  
+Enter your number:  
+62  
+🎉 Congratulations! You guessed the number in 3 attempts.  
+

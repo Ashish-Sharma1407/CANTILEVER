@@ -4,32 +4,26 @@
 # Task 1:
 # 🎯 Number Guessing Game in C++
 
-This is a simple console-based number guessing game built using C++. It generates a random number between 0 and 99 and lets the user guess it. After every guess, it gives a hint (too high / too low) and records the total number of attempts taken.
+📋 Project Overview
+This project implements a console-based two-digit number guessing game in C++. The game generates a random number between 01-99 (including single digits with leading zeros), and the player must guess it within a limited number of attempts. The project includes both traditional and modern C++ implementations.
 
-## 📄 Features
-- Random number generation
-- Interactive hints (too low / too high)
-- Keeps track of number of attempts
-- Uses file handling to store results in `numberGuessingGame.txt`
+🎯 Features
+Core Gameplay
+1. Random two-digit number generation (01-99 range)
+2. 7 attempts to guess the correct number
+3. Directional hints (higher/lower) after each guess
+4. Score system with point deduction for wrong guesses
+5. Input validation and error handling
+6. Multiple rounds support
+7. Game statistics tracking
+8. NEW: Leading zero display for single digits (01, 02, 03...)
 
-## 🛠️ How It Works
-- The program uses `rand()` seeded by the current time to generate a number
-- The user is prompted to guess until they get the correct number
-- Upon correct guess, result is stored in a file for future record
-
-## 🧪 Sample Output
-Welcome to the Number Guessing Game!  
-
-I have selected a number between 0 to 99. Try to guess it!  
-Enter your number:  
-50  
-Too low! Try again  
-Enter your number:  
-75  
-Too high! Try again  
-Enter your number:  
-62  
-🎉 Congratulations! You guessed the number in 3 attempts.  
+Enhanced Features
+1. Proximity hints (very close, warm, cold)
+2. Time tracking for each game
+3. Performance rating system
+4. Enhanced visual feedback with emojis
+5. Exception handling  
 
 
 # Task 2:
